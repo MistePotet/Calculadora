@@ -1,0 +1,49 @@
+* {
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 2em;
+}
+
+table {
+    margin-top: 5em;
+    background-color: #505050;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+td {
+    background-color: #111;
+    width: 5em;
+    height: 5em;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: 1em;
+    color: #fff;
+}
+
+td:hover {
+    background-color: #9EA3A3;
+}
+
+#cero {
+    background-color: #505050;
+}
+
+.simbolos {
+    background-color: #313131;
+}
+
+#igual {
+    background-color: #327b80;
+}
+
+#igual:hover {
+    background-color: #46ACB3;
+}

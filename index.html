@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Ejercicio 6</title>
+</head>
+<body>
+     <h1>Calculadora</h1>
+
+     <table cellspacing="3">
+         <tr>
+             <td colspan="4" id="cero">
+                <button id="result">0</button>
+             </td>
+         </tr>
+         <tr>
+             <td colspan="3" class="simbolos">
+                <button onclick="del()">AC</button>
+             </td>
+             <td  class="simbolos">
+                 <button onclick="add('/')">/</button>
+             </td>
+         </tr>
+         <tr>
+             <td>
+                 <button onclick="add('7')">7</button>
+             </td>
+             <td>
+                 <button onclick="add('8')">8</button>
+             </td>
+             <td>
+                 <button onclick="add('9')">9</button>
+             </td>
+             <td class="simbolos">
+                 <button onclick="add('*')">*</button>
+             </td>
+         </tr>
+         <tr>
+            <td>
+                <button onclick="add('4')">4</button>
+            </td>
+            <td>
+                <button onclick="add('5')">5</button>
+            </td>
+            <td>
+                <button onclick="add('6')">6</button>
+            </td>
+            <td class="simbolos">
+                <button onclick="add('-')">-</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button onclick="add('1')">1</button>
+            </td>
+            <td>
+                <button onclick="add('2')">2</button>
+            </td>
+            <td>
+                <button onclick="add('3')">3</button>
+            </td>
+            <td class="simbolos">
+                <button onclick="add('+')">+</button>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <button onclick="add('0')">0</button>
+            </td>
+            <td>
+                <button onclick="add('.')">.</button>
+            </td>
+            <td id="igual">
+                <button onclick="calc()">=</button>
+            </td>
+        </tr>
+     </table>
+</body>
+</html>
